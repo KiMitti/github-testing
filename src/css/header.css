@@ -1,0 +1,28 @@
+.header--logo {
+  color: var(--color-white);
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  font-family: "Roboto Serif", serif;
+  text-align: center;
+  padding: 0.3rem 0;
+}
+.header--logo--sub {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--color-ltgrey);
+  font-family: "Roboto", sans-serif;
+}
+.header--icon {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+.header--icon:hover, .header--icon:active, .header--icon:focus {
+  color: var(--color-ltgrey);
+}
+
+.navbar-dark.bg-dark {
+  background-color: var(--color-dkgrey) !important;
+}
