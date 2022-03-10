@@ -1,18 +1,27 @@
+@use './mixins.scss' as *;
+
 .large-hero {
   position: relative;
+  text-shadow: 2px 1px var(--color-grey);
 
   &--content {
     position: absolute;
-    left: 50%; /* horizontal alignment */
+    left: 0;
     top: 50%; /* vertical alignment */
-    transform: translate(-50%, -50%); /* precise centering */
+    transform: translateY(-50%); /* precise centering */
     text-align: center;
     padding: 10px;
+    width: 100%;
+    @include smScreen {
+      left: 50%; /* horizontal alignment */
+      transform: translate(-50%, -50%); /* precise centering */
+      width: auto;
+    }
   }
 
   &--title {
     font-weight: 300;
-    color: var(--color-ltblue);
+    color: var(--color-vltblue);
     font-family: 'Roboto Serif', serif;
     margin-bottom: 0;
   }
@@ -20,14 +29,16 @@
   &--subtitle {
     font-weight: 300;
     color: var(--color-orange);
-    border-bottom: 1px var(--color-ltgrey) solid;
-    padding-bottom: 0.5rem;
     margin-bottom: 0.5rem;
   }
   &--more-info {
     color: var(--color-white);
-    font-size: 1.6em;
     font-weight: 300;
-    text-shadow: 2px 1px var(--color-grey);
+    border-top: 1px var(--color-ltgrey) solid;
+    padding-top: 0.5rem;
+    display: inline-block;
+    @include smScreen {
+      font-size: 1.6rem;
+    }
   }
 }

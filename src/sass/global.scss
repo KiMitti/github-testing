@@ -14,17 +14,18 @@ img {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Roboto Serif', serif;
-}
-.btn-orange {
-  background-color: var(--color-orange);
-  border-color: var(--color-orange);
-  color: var(--color-white);
-}
 
-.btn-orange:focus,
-.btn-orange:active,
-.btn-orange:hover {
-  background-color: var(--color-dkorange);
-  border-color: var(--color-dkorange);
-  color: var(--color-white);
+  &-orange {
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
+    color: var(--color-white);
+
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: var(--color-dkorange);
+      border-color: var(--color-dkorange);
+      color: var(--color-white);
+    }
+  }
 }
