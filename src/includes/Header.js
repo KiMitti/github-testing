@@ -1,27 +1,27 @@
+import { useState, useEffect } from 'react';
+import { useLocation } from 'react-router';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { BsFillEnvelopeFill, BsGithub } from 'react-icons/bs';
 import React from 'react';
 
 const Header = () => {
+  //const [key, setKey] = useState('contact');
+  const key = useLocation().pathname;
   return (
     <Navbar bg='dark' variant='dark'>
       <span className='header--logo'>
         Kiley <span className='header--logo--sub'>Mitti</span>
       </span>
       <Container>
-        <Nav activeKey='/' className='ms-auto'>
+        <Nav activeKey={key} className='ms-auto'>
           <Nav.Item>
             <Nav.Link href='/'>Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey='link-1' href='/about'>
-              About
-            </Nav.Link>
+            <Nav.Link href='/about'>About</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey='link-2' href='/contact'>
-              Contact
-            </Nav.Link>
+            <Nav.Link href='/contact'>Contact</Nav.Link>
           </Nav.Item>
         </Nav>
       </Container>

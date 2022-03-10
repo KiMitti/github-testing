@@ -12,6 +12,11 @@
   width: 80%;
   margin: 0 auto;
 }
+@media (min-width: 992px) {
+  .references--content {
+    width: 60%;
+  }
+}
 .references--content--img {
   border-radius: 100%;
   margin-bottom: 0.5rem;

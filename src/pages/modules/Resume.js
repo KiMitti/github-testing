@@ -8,6 +8,7 @@ const Resume = () => {
     <Container id='resume' className='resume pt-5'>
       <Row>
         <Col>
+          <h1 className='page--title text-center'>Resumé</h1>
           <h2>
             <FaScroll className='icon icon--heading' />
             Summary

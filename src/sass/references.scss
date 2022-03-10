@@ -1,3 +1,5 @@
+@use './mixins.scss' as *;
+
 .references {
   //set this and slide height the same
   min-height: 450px;
@@ -14,6 +16,9 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    @include mdScreen {
+      width: 60%;
+    }
     &--img {
       border-radius: 100%;
       margin-bottom: 0.5rem;
