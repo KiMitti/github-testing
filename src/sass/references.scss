@@ -1,0 +1,51 @@
+.references {
+  //set this and slide height the same
+  min-height: 450px;
+  &--slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //align-items: center;
+    //set this the same as above
+    min-height: 450px;
+  }
+
+  &--content {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    &--img {
+      border-radius: 100%;
+      margin-bottom: 0.5rem;
+    }
+    &--title {
+      text-shadow: 1px 1px var(--color-ltgrey);
+      font-family: var(--font-serif);
+      margin-bottom: 0;
+    }
+    &--subtitle {
+      font-size: 1rem;
+      color: var(--color-grey);
+      text-transform: uppercase;
+    }
+    &--text {
+      position: relative;
+      padding: 0 2.2rem;
+    }
+  }
+  &--icon {
+    font-size: 3rem;
+    color: var(--color-orange);
+    position: absolute;
+    filter: drop-shadow(1px 1px var(--color-shadow));
+  }
+  &--icon.left {
+    top: -1rem;
+    left: -1rem;
+  }
+  &--icon.right {
+    bottom: -0.5rem;
+    right: -1rem;
+    color: var(--color-blue);
+  }
+}
