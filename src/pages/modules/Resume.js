@@ -5,14 +5,14 @@ import { BsPeopleFill } from 'react-icons/bs';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 const Resume = () => {
   return (
-    <Container id='skills' className='page home'>
+    <Container className='resume pt-5'>
       <Row>
         <Col>
           <h2>
             <FaScroll className='icon icon--heading' />
             Summary
           </h2>
-          <p>
+          <p className='resume--summary--text'>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Reprehenderit cumque eligendi asperiores, quasi, quia eveniet sit
             dolores non harum deserunt cupiditate praesentium placeat veniam.
@@ -21,13 +21,13 @@ const Resume = () => {
           </p>
         </Col>
       </Row>
-      <Row className='pt-4'>
-        <Col sm className='skills--section pt-3'>
+      <Row className='pt-4 resume'>
+        <Col sm className='resume--skills--section pt-3'>
           <h2>
             <FiCode className='icon icon--heading' />
             Technical Skills
           </h2>
-          <ul>
+          <ul className='resume--skills--list'>
             <li>Lorem ipsum, dolor sit amet consectetur</li>
             <li>adipisicing elit. Obcaecati, voluptatum.</li>
             <li>Quod, perspiciatis quas earum cumque quaerat neque?</li>
@@ -37,12 +37,12 @@ const Resume = () => {
             </li>
           </ul>
         </Col>
-        <Col sm className='skills--section pt-3'>
+        <Col sm className='resume--skills--section pt-3'>
           <h2>
             <BsPeopleFill className='icon icon--heading' />
             Other Skills
           </h2>
-          <ul>
+          <ul className='resume--skills--list'>
             <li>Lorem ipsum, dolor sit amet consectetur</li>
             <li>adipisicing elit. Obcaecati, voluptatum.</li>
             <li>Quod, perspiciatis quas earum cumque quaerat neque?</li>

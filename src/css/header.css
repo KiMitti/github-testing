@@ -5,7 +5,7 @@
   letter-spacing: 2px;
   line-height: 1.8rem;
   text-transform: uppercase;
-  font-family: "Roboto Serif", serif;
+  font-family: var(--font-serif);
   text-align: center;
   padding: 0.3rem 0;
   text-shadow: 1px 1px var(--color-grey);
@@ -14,7 +14,7 @@
   font-size: 1.5rem;
   font-weight: normal;
   color: var(--color-ltgrey);
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-sans);
 }
 .header--icon {
   font-size: 2rem;

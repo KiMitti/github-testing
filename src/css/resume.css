@@ -1,1 +1,14 @@
-
+.resume--skills--list {
+  padding-left: 3.5rem;
+}
+.resume--experience--job {
+  margin-left: 3rem;
+}
+.resume--experience--job--heading {
+  font-size: 1.4rem;
+}
+.resume--experience--job--subheading {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  text-transform: uppercase;
+}

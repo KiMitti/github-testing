@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
-import { Container, Row } from 'react-bootstrap';
+import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Home, About, Contact, Error } from './pages/index';
 import { Header, Footer } from './includes';

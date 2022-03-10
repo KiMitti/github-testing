@@ -27,7 +27,7 @@
 .large-hero--title {
   font-weight: 300;
   color: var(--color-vltblue);
-  font-family: "Roboto Serif", serif;
+  font-family: var(--font-serif);
   margin-bottom: 0;
 }
 .large-hero--subtitle {

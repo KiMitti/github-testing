@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-sans);
   color: var(--color-grey);
 }
 
@@ -16,7 +16,7 @@ img {
 .btn {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: 'Roboto Serif', serif;
+  font-family: var(--font-serif);
   text-shadow: none;
   box-shadow: 2px 2px 4px var(--color-shadow);
   border-radius: 0;
