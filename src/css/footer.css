@@ -10,7 +10,9 @@ footer p {
   margin: 0;
 }
 
-footer.sticky {
-  position: absolute;
-  bottom: 0;
+@media (min-width: 768px) {
+  footer.sticky {
+    position: absolute;
+    bottom: 0;
+  }
 }

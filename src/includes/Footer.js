@@ -14,7 +14,7 @@ const Footer = () => {
       setIsSticky(false);
     }
   };
-  useEffect(() => checkHeight(), []);
+  useEffect(() => checkHeight());
 
   return (
     <footer className={isSticky ? 'footer sticky' : 'footer'}>

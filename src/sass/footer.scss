@@ -1,3 +1,4 @@
+@use './mixins.scss' as *;
 footer {
   background-color: var(--color-dkgrey);
   display: block;
@@ -8,8 +9,9 @@ footer {
 footer p {
   margin: 0;
 }
-
-footer.sticky {
-  position: absolute;
-  bottom: 0;
+@include smScreen {
+  footer.sticky {
+    position: absolute;
+    bottom: 0;
+  }
 }
