@@ -1,0 +1,16 @@
+footer {
+  background-color: var(--color-dkgrey);
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+  color: var(--color-white);
+}
+
+footer p {
+  margin: 0;
+}
+
+footer.sticky {
+  position: absolute;
+  bottom: 0;
+}

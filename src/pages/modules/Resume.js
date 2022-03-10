@@ -2,10 +2,10 @@ import { FiCode } from 'react-icons/fi';
 import { FaScroll } from 'react-icons/fa';
 import { MdOutlineSubject } from 'react-icons/md';
 import { BsPeopleFill } from 'react-icons/bs';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 const Resume = () => {
   return (
-    <Container className='resume pt-5'>
+    <Container id='resume' className='resume pt-5'>
       <Row>
         <Col>
           <h2>
@@ -24,7 +24,7 @@ const Resume = () => {
       <Row className='pt-4 resume'>
         <Col sm className='resume--skills--section pt-3'>
           <h2>
-            <FiCode className='icon icon--heading' />
+            <FiCode className='icon icon--heading icon--orange' />
             Technical Skills
           </h2>
           <ul className='resume--skills--list'>
@@ -39,7 +39,7 @@ const Resume = () => {
         </Col>
         <Col sm className='resume--skills--section pt-3'>
           <h2>
-            <BsPeopleFill className='icon icon--heading' />
+            <BsPeopleFill className='icon icon--heading icon--orange' />
             Other Skills
           </h2>
           <ul className='resume--skills--list'>

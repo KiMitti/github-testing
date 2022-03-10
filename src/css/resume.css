@@ -2,7 +2,13 @@
   padding-left: 3.5rem;
 }
 .resume--experience--job {
-  margin-left: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .resume--experience--job {
+    margin-left: 3rem;
+  }
 }
 .resume--experience--job--heading {
   font-size: 1.4rem;

@@ -15,7 +15,7 @@ const Hero = () => {
           Bringing beautiful designs to life.
         </p>
         <p>
-          <Button href='#' className='btn-orange'>
+          <Button href='#resume' className='btn-orange'>
             View Resume
           </Button>
         </p>

@@ -1,10 +1,4 @@
-import { AiFillStar, AiTwotoneFire, AiOutlineComment } from 'react-icons/ai';
-import {
-  BsFillCloudRainFill,
-  BsGlobe2,
-  BsWifi,
-  BsPeopleFill,
-} from 'react-icons/bs';
+import { AiOutlineComment } from 'react-icons/ai';
 
 import Hero from './modules/Hero';
 import Resume from './modules/Resume';
@@ -17,7 +11,7 @@ const Home = () => {
 
       <div id='testimonials'>
         <AiOutlineComment className='icon' />
-        <h2>Real Testimonials</h2>
+        <h2>References</h2>
 
         <img src='/images/testimonial-jane.jpg' alt='jane' />
         <h3>Jane Doe</h3>

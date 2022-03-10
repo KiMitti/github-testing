@@ -1,6 +1,18 @@
+html {
+  height: 100%;
+  position: relative;
+}
+
 body {
+  height: 100%;
+  position: relative;
   font-family: var(--font-sans);
   color: var(--color-grey);
+}
+
+#root,
+main {
+  height: 100%;
 }
 
 img {
@@ -30,4 +42,12 @@ img {
   background-color: var(--color-dkorange);
   border-color: var(--color-dkorange);
   color: var(--color-white);
+}
+
+/*icons*/
+.icon--heading {
+  color: var(--color-blue);
+}
+.icon--orange {
+  color: var(--color-orange);
 }

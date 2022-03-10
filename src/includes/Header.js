@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { BsFillEnvelopeFill, BsGithub } from 'react-icons/bs';
+import React from 'react';
 
 const Header = () => {
   return (
@@ -24,10 +25,10 @@ const Header = () => {
           </Nav.Item>
         </Nav>
       </Container>
-      <a href='#'>
+      <a href='mailto:email@kileymitti.com'>
         <BsFillEnvelopeFill className='header--icon icon m-2' />
       </a>
-      <a href='#'>
+      <a href='https://github.com/KiMitti/' target='_blank' rel='noreferrer'>
         <BsGithub className='header--icon icon m-2' />
       </a>
     </Navbar>
