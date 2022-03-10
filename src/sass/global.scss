@@ -7,6 +7,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.page {
+  padding-top: 4rem;
+}
 
 /*button colors*/
 
@@ -14,6 +17,9 @@ img {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: 'Roboto Serif', serif;
+  text-shadow: none;
+  box-shadow: 2px 2px 4px var(--color-shadow);
+  border-radius: 0;
 
   &-orange {
     background-color: var(--color-orange);

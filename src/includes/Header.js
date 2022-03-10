@@ -7,12 +7,6 @@ const Header = () => {
       <span className='header--logo'>
         Kiley <span className='header--logo--sub'>Mitti</span>
       </span>
-      <a href='#'>
-        <BsFillEnvelopeFill className='header--icon icon m-2' />
-      </a>
-      <a href='#'>
-        <BsGithub className='header--icon icon m-2' />
-      </a>
       <Container>
         <Nav activeKey='/' className='ms-auto'>
           <Nav.Item>
@@ -30,6 +24,12 @@ const Header = () => {
           </Nav.Item>
         </Nav>
       </Container>
+      <a href='#'>
+        <BsFillEnvelopeFill className='header--icon icon m-2' />
+      </a>
+      <a href='#'>
+        <BsGithub className='header--icon icon m-2' />
+      </a>
     </Navbar>
   );
 };

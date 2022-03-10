@@ -1,58 +1,20 @@
 import { AiFillStar, AiTwotoneFire, AiOutlineComment } from 'react-icons/ai';
-import { BsFillCloudRainFill, BsGlobe2, BsWifi } from 'react-icons/bs';
-import { Button } from 'react-bootstrap';
+import {
+  BsFillCloudRainFill,
+  BsGlobe2,
+  BsWifi,
+  BsPeopleFill,
+} from 'react-icons/bs';
+
+import Hero from './modules/Hero';
+import Resume from './modules/Resume';
 
 const Home = () => {
   return (
-    <div className='home p-0'>
-      <div className='large-hero'>
-        <img src='/images/hero-bg.jpg' alt='hero-background' />
-        <div className='large-hero--content'>
-          <h1 className='large-hero--title'>Kiley Mitti</h1>
-          <h2 className='large-hero--subtitle'>Web Developer</h2>
-          <p className='large-hero--more-info'>
-            Bringing beautiful designs to life.
-          </p>
-          <p>
-            <Button href='#' className='btn-orange'>
-              View Resume
-            </Button>
-          </p>
-        </div>
-      </div>
-      <div id='our-beginning'>
-        <h2>The first trip we planned was our own.</h2>
-        <h3>
-          Ever since, we&rsquo;ve been working to make travel better for
-          everyone.
-        </h3>
-        <img src='/images/first-trip.jpg' alt='Couple walking down a street.' />
-        <img src='/images/our-start.jpg' alt='Our founder, Jane Doe' />
-        <h2>Here&rsquo;s how we got started&hellip;</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, <a href='#'>quis nostrud exercitation</a> ullamco
-          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.
-        </p>
-        <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum velit esse cillum <strong>dolore eu fugiat.</strong>
-        </p>
-      </div>
+    <>
+      <Hero />
+      <Resume />
+
       <div id='features'>
         <AiFillStar className='icon' />
         <h2>Our Features</h2>
@@ -122,7 +84,7 @@ const Home = () => {
           elit, sed do eiusmod tempor incididunt ut.&rdquo;
         </p>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,8 @@
 .large-hero {
   position: relative;
   text-shadow: 2px 1px var(--color-grey);
+  max-height: 500px;
+  overflow: hidden;
 }
 .large-hero--content {
   position: absolute;
