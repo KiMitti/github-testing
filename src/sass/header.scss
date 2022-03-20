@@ -21,12 +21,9 @@
   }
 
   &--icon {
-    display: none;
-    @include smScreen {
-      display: inline-block;
-      font-size: 2rem;
-      color: var(--color-white);
-    }
+    display: inline-block;
+    font-size: 2rem;
+    color: var(--color-white);
   }
 
   &--icon:hover,
@@ -39,4 +36,9 @@
 // bootstrap mods
 .navbar-dark.bg-dark {
   background-color: var(--color-dkgrey) !important;
+}
+
+#offcanvasNavbar {
+  background-color: var(--color-dkgrey);
+  color: var(--color-white);
 }

@@ -3,6 +3,7 @@
 .references {
   //set this and slide height the same
   min-height: 450px;
+  padding-bottom: 1rem;
   &--slide {
     display: flex;
     flex-direction: column;

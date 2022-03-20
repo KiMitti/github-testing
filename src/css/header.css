@@ -17,14 +17,9 @@
   font-family: var(--font-sans);
 }
 .header--icon {
-  display: none;
-}
-@media (min-width: 768px) {
-  .header--icon {
-    display: inline-block;
-    font-size: 2rem;
-    color: var(--color-white);
-  }
+  display: inline-block;
+  font-size: 2rem;
+  color: var(--color-white);
 }
 .header--icon:hover, .header--icon:active, .header--icon:focus {
   color: var(--color-ltgrey);
@@ -32,4 +27,9 @@
 
 .navbar-dark.bg-dark {
   background-color: var(--color-dkgrey) !important;
+}
+
+#offcanvasNavbar {
+  background-color: var(--color-dkgrey);
+  color: var(--color-white);
 }
