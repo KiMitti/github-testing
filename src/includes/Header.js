@@ -17,6 +17,9 @@ const Header = () => {
 
   useEffect(() => {
     checkScreenSize();
+  }, []);
+
+  useEffect(() => {
     window.addEventListener('resize', () => checkScreenSize());
     return () => window.removeEventListener('remove', () => checkScreenSize());
   });
