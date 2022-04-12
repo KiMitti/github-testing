@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router';
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
-import { BsFillEnvelopeFill, BsGithub } from 'react-icons/bs';
+import { BsFillEnvelopeFill, BsGithub, BsLinkedin } from 'react-icons/bs';
 import React from 'react';
 
 const Header = () => {
@@ -29,12 +29,13 @@ const Header = () => {
   //return fullsize nav
   if (!isMobile) {
     return (
-      <Navbar bg='dark' variant='dark'>
-        <span className='header--logo'>
-          Kiley <span className='header--logo--sub'>Mitti</span>
-        </span>
-        <Container>
-          <Nav activeKey={key} className='ms-auto'>
+      <Navbar bg='dark' variant='dark' sticky='top'>
+        <Container fluid>
+          <span className='header--logo ms-3'>
+            Kiley <span className='header--logo--sub'>Mitti</span>
+          </span>
+
+          <Nav activeKey={key} className='ms-auto me-5'>
             <Nav.Item>
               <Nav.Link href='/'>Home</Nav.Link>
             </Nav.Item>
@@ -45,20 +46,32 @@ const Header = () => {
               <Nav.Link href='/contact'>Contact</Nav.Link>
             </Nav.Item>
           </Nav>
+
+          <a href='mailto:email@kileymitti.com'>
+            <BsFillEnvelopeFill className='header--icon icon m-2' />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/kiley-mitti/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <BsLinkedin className='header--icon icon m-2' />
+          </a>
+          <a
+            href='https://github.com/KiMitti/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <BsGithub className='header--icon icon m-2' />
+          </a>
         </Container>
-        <a href='mailto:email@kileymitti.com'>
-          <BsFillEnvelopeFill className='header--icon icon m-2' />
-        </a>
-        <a href='https://github.com/KiMitti/' target='_blank' rel='noreferrer'>
-          <BsGithub className='header--icon icon m-2' />
-        </a>
       </Navbar>
     );
   }
 
   //return mobile nav
   return (
-    <Navbar bg='dark' variant='dark' expand={false}>
+    <Navbar bg='dark' variant='dark' expand={false} sticky='top'>
       <Container fluid>
         <span className='header--logo'>
           Kiley <span className='header--logo--sub'>Mitti</span>
@@ -90,6 +103,13 @@ const Header = () => {
                 <Nav.Item>
                   <a href='mailto:email@kileymitti.com'>
                     <BsFillEnvelopeFill className='header--icon icon m-2' />
+                  </a>
+                  <a
+                    href='https://www.linkedin.com/in/kiley-mitti/'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <BsLinkedin className='header--icon icon m-2' />
                   </a>
                   <a
                     href='https://github.com/KiMitti/'

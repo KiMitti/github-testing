@@ -4,6 +4,9 @@
   max-height: 500px;
   overflow: hidden;
 }
+.large-hero--img {
+  width: 100%;
+}
 .large-hero--content {
   position: absolute;
   left: 0;

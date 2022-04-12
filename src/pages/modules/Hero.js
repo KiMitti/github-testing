@@ -6,7 +6,11 @@ const Hero = () => {
       <picture>
         <source srcSet='./images/hero-bg.jpg' media='(min-width: 992px)' />
         <source srcSet='./images/hero-bg-md.jpg' media='(min-width: 640px)' />
-        <img src='./images/hero-bg-sm.jpg' alt='hero bg' />
+        <img
+          src='./images/hero-bg-sm.jpg'
+          alt='hero bg'
+          className='large-hero--img'
+        />
       </picture>
       <div className='large-hero--content'>
         <h1 className='large-hero--title'>Kiley Mitti</h1>

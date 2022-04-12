@@ -19,8 +19,8 @@
   }
 }
 .references--content--img {
-  border-radius: 100%;
-  margin-bottom: 0.5rem;
+  border-radius: 0;
+  margin-bottom: 1rem;
 }
 .references--content--title {
   text-shadow: 1px 1px var(--color-ltgrey);

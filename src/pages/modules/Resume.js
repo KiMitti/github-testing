@@ -1,14 +1,24 @@
 import { FiCode } from 'react-icons/fi';
 import { FaScroll } from 'react-icons/fa';
-import { MdOutlineSubject } from 'react-icons/md';
-import { BsPeopleFill } from 'react-icons/bs';
-import { Container, Row, Col } from 'react-bootstrap';
+import { MdOutlineSubject, MdOutlineSchool } from 'react-icons/md';
+import { BsPeopleFill, BsDownload } from 'react-icons/bs';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 const Resume = () => {
   return (
     <Container id='resume' className='resume pt-5'>
       <Row>
         <Col>
-          <h1 className='page--title text-center'>Resumé</h1>
+          <h1 className='page--title d-flex'>
+            <span className='text-center flex-grow-1'>Resumé</span>
+            <a
+              href='/pdfs/kiley-mitti-resume.pdf'
+              className='resume--download me-3'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <BsDownload />
+            </a>
+          </h1>
           <h2>
             <FaScroll className='icon icon--heading' />
             Summary
@@ -52,6 +62,7 @@ const Resume = () => {
             <li>Ability to explain technical concepts at all levels</li>
             <li>Mentoring</li>
             <li>Customer oriented</li>
+            <li>Quick Study</li>
           </ul>
         </Col>
       </Row>
@@ -127,6 +138,34 @@ const Resume = () => {
               </li>
               <li>Technical Support & Problem Solving</li>
             </ul>
+          </article>
+        </Col>
+      </Row>
+      <Row className='pt-4'>
+        <Col>
+          <h2>
+            <MdOutlineSchool className='icon icon--heading' />
+            Education
+          </h2>
+          <article className='resume--experience--job'>
+            <h3 className='resume--experience--job--heading'>
+              Bachelor Of Science: Cognitive Science
+              <span className='resume--experience--job--date'>2001 – 2005</span>
+            </h3>
+            <h4 className='resume--experience--job--subheading'>
+              Central Michigan University, Mount Pleasant, MI
+            </h4>
+            <p>Minors in Computer Science, math & psychology</p>
+          </article>
+          <article className='resume--experience--job'>
+            <h3 className='resume--experience--job--heading'>
+              Continuing Education via Udemy.com
+              <span className='resume--experience--job--date'>
+                2021 - Present
+              </span>
+            </h3>
+            <h4 className='resume--experience--job--subheading'>Remote</h4>
+            <p>Subjects include React, Node, NPM, Jest, Next.js and others</p>
           </article>
         </Col>
       </Row>

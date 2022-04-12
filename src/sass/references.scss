@@ -21,9 +21,10 @@
       width: 60%;
     }
     &--img {
-      border-radius: 100%;
-      margin-bottom: 0.5rem;
+      border-radius: 0;
+      margin-bottom: 1rem;
     }
+
     &--title {
       text-shadow: 1px 1px var(--color-ltgrey);
       font-family: var(--font-serif);

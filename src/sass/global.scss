@@ -10,7 +10,7 @@ body {
 }
 #root,
 main {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -18,6 +18,14 @@ main {
 img {
   max-width: 100%;
   height: auto;
+}
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: var(--color-dkorange);
 }
 .page {
   padding-top: 4rem;

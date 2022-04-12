@@ -5,7 +5,7 @@ const Footer = () => {
         Copyright &copy; Kiley Mitti. All rights reserved.
         <a
           className='btn btn-orange btn-sm ms-3 me-3 mt-1'
-          href='https://github.com/KiMitti/github-testing'
+          href='https://github.com/KiMitti/kiMitti-site'
           target='_blank'
           rel='noreferrer'
         >

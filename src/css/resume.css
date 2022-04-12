@@ -1,3 +1,10 @@
+.resume {
+  scroll-margin-top: 3rem;
+}
+.resume--download {
+  color: var(--color-dkgrey);
+  font-size: 2.2rem;
+}
 .resume--skills--list {
   padding-left: 3.5rem;
 }
@@ -12,6 +19,7 @@
 }
 .resume--experience--job--heading {
   font-size: 1.4rem;
+  text-transform: uppercase;
 }
 .resume--experience--job--date {
   color: var(--color-dkgrey);
