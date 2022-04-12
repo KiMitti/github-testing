@@ -17,6 +17,15 @@
       &--heading {
         font-size: 1.4rem;
       }
+      &--date {
+        color: var(--color-dkgrey);
+        font-size: 1.3rem;
+        display: block;
+        @include smScreen {
+          margin-left: 1rem;
+          display: inline;
+        }
+      }
       &--subheading {
         font-family: var(--font-serif);
         font-size: 1rem;

@@ -14,11 +14,10 @@ const Resume = () => {
             Summary
           </h2>
           <p className='resume--summary--text'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Reprehenderit cumque eligendi asperiores, quasi, quia eveniet sit
-            dolores non harum deserunt cupiditate praesentium placeat veniam.
-            Quae repudiandae id quisquam magnam tempore hic deleniti, iusto quo
-            sit quia voluptatem, ab rerum unde?
+            Front-end Web Developer with 16+ years of experience coding
+            responsive web applications and websites. Proficient in creating
+            user interfaces, troubleshooting both simple and complex issues,
+            translating business needs into technical solutions.
           </p>
         </Col>
       </Row>
@@ -29,13 +28,15 @@ const Resume = () => {
             Technical Skills
           </h2>
           <ul className='resume--skills--list'>
-            <li>Lorem ipsum, dolor sit amet consectetur</li>
-            <li>adipisicing elit. Obcaecati, voluptatum.</li>
-            <li>Quod, perspiciatis quas earum cumque quaerat neque?</li>
-            <li>
-              Repellat mollitia temporibus accusamus, at eligendi omnis dolore
-              nihil itaque deserunt consectetur eius magni. Sapiente, maxime?
-            </li>
+            <li>Responsive Design / SEO Optimization</li>
+            <li>Comprehensive knowledge of HTML5, CSS3, and Web Components</li>
+            <li>Experienced with Javascript, TypeScript, Node.JS, and PHP</li>
+            <li>ReactJS, Bootstrap/React Bootstrap, JQuery</li>
+            <li>RESTful API, GraphQL</li>
+            <li>PostgreSQL, MySQL, Apache, DNS, SSL Certificates</li>
+            <li>Wordpress, Shopify, Membergate, cPanel</li>
+            <li>Git, VS Code, NPM, Selenium</li>
+            <li>Experienced in debugging and testing web applications</li>
           </ul>
         </Col>
         <Col sm className='resume--skills--section pt-3'>
@@ -44,9 +45,13 @@ const Resume = () => {
             Other Skills
           </h2>
           <ul className='resume--skills--list'>
-            <li>Lorem ipsum, dolor sit amet consectetur</li>
-            <li>adipisicing elit. Obcaecati, voluptatum.</li>
-            <li>Quod, perspiciatis quas earum cumque quaerat neque?</li>
+            <li>Interpreting technical requirements</li>
+            <li>Attention to detail</li>
+            <li>Strong communication skills</li>
+            <li>Excellent interpersonal skills</li>
+            <li>Ability to explain technical concepts at all levels</li>
+            <li>Mentoring</li>
+            <li>Customer oriented</li>
           </ul>
         </Col>
       </Row>
@@ -58,7 +63,10 @@ const Resume = () => {
           </h2>
           <article className='resume--experience--job'>
             <h3 className='resume--experience--job--heading'>
-              FREELANCE WEB DEVELOPMENT • 2011-PRESENT
+              FREELANCE WEB DEVELOPMENT
+              <span className='resume--experience--job--date'>
+                2011 - PRESENT
+              </span>
             </h3>
             <h4 className='resume--experience--job--subheading'>
               Key Clients: MyVirtualService, ImaginationPad,
@@ -95,7 +103,8 @@ const Resume = () => {
           </article>
           <article className='resume--experience--job'>
             <h3 className='resume--experience--job--heading'>
-              WEB DEVELOPER • SIZZLING STUDIOS • 2006-2020
+              WEB DEVELOPER • SIZZLING STUDIOS
+              <span className='resume--experience--job--date'>2006 - 2020</span>
             </h3>
             <ul>
               <li>

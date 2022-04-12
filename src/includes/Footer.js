@@ -1,21 +1,6 @@
-import { useEffect, useState } from 'react';
-
 const Footer = () => {
-  const [isSticky, setIsSticky] = useState(false);
-  const checkHeight = () => {
-    const documentHeight = document.body.scrollHeight;
-    const windowHeight = document.body.clientHeight;
-
-    if (documentHeight <= windowHeight) {
-      setIsSticky(true);
-    } else {
-      setIsSticky(false);
-    }
-  };
-  useEffect(() => checkHeight());
-
   return (
-    <footer className={isSticky ? 'footer sticky' : 'footer'}>
+    <footer className='footer'>
       <p>
         Copyright &copy; Kiley Mitti. All rights reserved.
         <a
@@ -24,7 +9,7 @@ const Footer = () => {
           target='_blank'
           rel='noreferrer'
         >
-          Check the Code
+          Git the Code
         </a>
       </p>
     </footer>
