@@ -2,7 +2,7 @@ import { FiCode } from 'react-icons/fi';
 import { FaScroll } from 'react-icons/fa';
 import { MdOutlineSubject, MdOutlineSchool } from 'react-icons/md';
 import { BsPeopleFill, BsDownload } from 'react-icons/bs';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 const Resume = () => {
   return (
     <Container id='resume' className='resume pt-5'>
@@ -165,7 +165,7 @@ const Resume = () => {
               </span>
             </h3>
             <h4 className='resume--experience--job--subheading'>Remote</h4>
-            <p>Subjects include React, Node, NPM, Jest, Next.js and others</p>
+            <p>Subjects include: React, Node, NPM, Jest, Next.js and others</p>
           </article>
         </Col>
       </Row>
