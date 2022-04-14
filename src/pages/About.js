@@ -7,9 +7,9 @@ const About = () => {
           <article className='about'>
             <h1 className='page--title'>About Me</h1>
             <p>
-              Hi! I'm Kiley Mitti, and I've been in web development in some form
-              or another for most of my life. In high school I worked part time
-              as a site editor. That was in the long long ago when websites were
+              Hi! I'm Kiley Mitti. I've been in web development in some form or
+              another for most of my life. In high school I worked part time as
+              a site editor. That was in the long long ago when websites were
               built in tables and designed statically for 800x600 screens.
               Yikes! In college,{' '}
               <a
@@ -32,16 +32,15 @@ const About = () => {
             </p>
             <p>
               In my free time I'm a fairly typical nerd. I've been a gamer since
-              I was a kid playing Legend of Zelda on Nintendo with my dad, and
-              Tetris on my own. (I'm still a huge fan of both of those games, as
-              well as a bunch of RPGs, puzzle games, roguelites, FPS's,survival,
-              horror and nearly any co-op my friends and I can get our hands
-              on.) I love fantasy and sci-fi in all of its incarnations, from
-              games to shows/movies and books. My favorite authors include John
-              Scalzi, Sir Terry Pratchett, Neil Gaimon, Douglas Adams and
-              Brandon Sanderson.. I'm basically a big fan of any author who can
-              inject a compelling story with humour and/or build an amazing
-              universe.
+              I was a kid playing Legend of Zelda with my dad, and Tetris on my
+              own. (I'm still love both of those series, as well as a bunch of
+              RPGs, puzzle games, roguelites, FPSs, survival, horror, and nearly
+              any co-op my friends and I can get our hands on.) I love fantasy
+              and sci-fi in all of its incarnations, from games to shows/movies,
+              podcasts & books. My favorite authors include John Scalzi, Sir
+              Terry Pratchett, Neil Gaimon, Douglas Adams and Brandon
+              Sanderson.. I'm basically a big fan of any author who can inject a
+              compelling story with humour and/or build an amazing universe.
             </p>
             <p>
               I also enjoy spending time outdoors. Kayaking and biking are my
@@ -82,7 +81,7 @@ const About = () => {
               SCSS, and React Bootstrap (which is based in Bootstrap 5 these
               days). It's hosted on netlify which autocompiles it from the
               github master repository which is super cool. It's probably a BIT
-              more modular than it, strictly speaking, needs to be for such a
+              more complex than it, strictly speaking, needs to be for such a
               simple site, but I figure it's good to practice for larger
               projects.
             </p>

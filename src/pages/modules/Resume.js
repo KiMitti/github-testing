@@ -44,7 +44,7 @@ const Resume = () => {
             <li>ReactJS, Bootstrap/React Bootstrap, JQuery</li>
             <li>RESTful API, GraphQL</li>
             <li>PostgreSQL, MySQL, Apache, DNS, SSL Certificates</li>
-            <li>Wordpress, Shopify, Membergate, cPanel</li>
+            <li>WordPress, Shopify, MemberGate, cPanel</li>
             <li>Git, VS Code, NPM, Selenium</li>
             <li>Experienced in debugging and testing web applications</li>
           </ul>
@@ -89,7 +89,7 @@ const Resume = () => {
                 websites using HTML5, CSS3, Javascript, and PHP
               </li>
               <li>
-                Created custom websites using bootstrap, Wordpress, Membergate,
+                Created custom websites using bootstrap, WordPress, MemberGate,
                 Shopify, and other content management systems (CMS).
               </li>
               <li>
@@ -97,7 +97,7 @@ const Resume = () => {
                 engineers to fulfill client expectations.
               </li>
               <li>
-                Recommended and implemented eCommerce solutions via Wordpress &
+                Recommended and implemented eCommerce solutions via WordPress &
                 Shopify
               </li>
               <li>Updated and maintained existing websites</li>
@@ -129,7 +129,7 @@ const Resume = () => {
               </li>
               <li>Updated and maintained sites as needed</li>
               <li>
-                Created websites on Wordpress CMS and taught clients how to
+                Created websites on WordPress CMS and taught clients how to
                 maintain their own content
               </li>
               <li>
