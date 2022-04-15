@@ -1,4 +1,4 @@
-import { Carousel } from 'react-bootstrap';
+import { Button, Carousel } from 'react-bootstrap';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 
 const slides = [
@@ -32,11 +32,11 @@ const slides = [
     image: '/images/testimonial-cat.jpg',
     imgStyle: { borderRadius: '50%' },
   },
-  // { title: '', subtitle: '', content: '', image: '' },
+  // { title: '', subtitle: '', content: '', image: '', imgStyle:{} },
 ];
 const References = () => {
   return (
-    <>
+    <div className='refs mt-5 pt-2 pb-5'>
       <h2 className='text-center pt-5'>Awesome References</h2>
       <Carousel variant='dark' className='references' interval={10000}>
         {slides.map((slide, index) => {
@@ -82,7 +82,12 @@ const References = () => {
           );
         })}
       </Carousel>
-    </>
+      <div className='text-center mb-4 mt-2'>
+        <Button className='btn-orange' href='/contact'>
+          References available Upon Request
+        </Button>
+      </div>
+    </div>
   );
 };
 

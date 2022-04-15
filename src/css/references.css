@@ -1,3 +1,7 @@
+.refs {
+  background-color: var(--color-xltgrey);
+}
+
 .references {
   min-height: 450px;
   padding-bottom: 1rem;

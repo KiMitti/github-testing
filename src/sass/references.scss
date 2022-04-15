@@ -1,5 +1,7 @@
 @use './mixins.scss' as *;
-
+.refs {
+  background-color: var(--color-xltgrey);
+}
 .references {
   //set this and slide height the same
   min-height: 450px;

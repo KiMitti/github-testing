@@ -42,6 +42,20 @@ a:active {
   box-shadow: 2px 2px 4px var(--color-shadow);
   border-radius: 0;
 
+  &-primary {
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
+    color: var(--color-white);
+
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: var(--color-dkblue);
+      border-color: var(--color-dkblue);
+      color: var(--color-white);
+    }
+  }
+
   &-orange {
     background-color: var(--color-orange);
     border-color: var(--color-orange);

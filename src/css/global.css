@@ -46,6 +46,16 @@ a:active {
   box-shadow: 2px 2px 4px var(--color-shadow);
   border-radius: 0;
 }
+.btn-primary {
+  background-color: var(--color-blue);
+  border-color: var(--color-blue);
+  color: var(--color-white);
+}
+.btn-primary:focus, .btn-primary:active, .btn-primary:hover {
+  background-color: var(--color-dkblue);
+  border-color: var(--color-dkblue);
+  color: var(--color-white);
+}
 .btn-orange {
   background-color: var(--color-orange);
   border-color: var(--color-orange);
