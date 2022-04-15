@@ -2,10 +2,12 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router';
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import { BsFillEnvelopeFill, BsGithub, BsLinkedin } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [show, setShow] = useState(false);
 
   const checkScreenSize = () => {
     if (window.innerWidth >= 768) {
@@ -37,13 +39,19 @@ const Header = () => {
 
           <Nav activeKey={key} className='ms-auto me-5'>
             <Nav.Item>
-              <Nav.Link href='/'>Home</Nav.Link>
+              <Nav.Link as={Link} to='/'>
+                Home
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/about'>About</Nav.Link>
+              <Nav.Link as={Link} to='/about'>
+                About
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/contact'>Contact</Nav.Link>
+              <Nav.Link as={Link} to='/contact'>
+                Contact
+              </Nav.Link>
             </Nav.Item>
           </Nav>
 
@@ -76,11 +84,18 @@ const Header = () => {
         <span className='header--logo'>
           Kiley <span className='header--logo--sub'>Mitti</span>
         </span>
-        <Navbar.Toggle aria-controls='offcanvasNavbar' />
+        <Navbar.Toggle
+          aria-controls='offcanvasNavbar'
+          onClick={() => setShow(true)}
+        />
         <Navbar.Offcanvas
           id='offcanvasNavbar'
           aria-labelledby='offcanvasNavbarLabel'
           placement='end'
+          show={show}
+          onHide={() => {
+            setShow(false);
+          }}
         >
           <Offcanvas.Header closeButton closeVariant='white'>
             <Offcanvas.Title id='offcanvasNavbarLabel'>Menu</Offcanvas.Title>
@@ -92,13 +107,37 @@ const Header = () => {
                 className='flex-column justify-content-end flex-grow-1 pe-3'
               >
                 <Nav.Item>
-                  <Nav.Link href='/'>Home</Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to='/'
+                    onClick={() => {
+                      setShow(false);
+                    }}
+                  >
+                    Home
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href='/about'>About</Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to='/about'
+                    onClick={() => {
+                      setShow(false);
+                    }}
+                  >
+                    About
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href='/contact'>Contact</Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to='/contact'
+                    onClick={() => {
+                      setShow(false);
+                    }}
+                  >
+                    Contact
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <a href='mailto:email@kileymitti.com'>

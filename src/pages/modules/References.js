@@ -1,5 +1,6 @@
-import { Button, Carousel } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
+import { Link } from 'react-router-dom';
 
 const slides = [
   {
@@ -83,9 +84,9 @@ const References = () => {
         })}
       </Carousel>
       <div className='text-center mb-4 mt-2'>
-        <Button className='btn-orange' href='/contact'>
+        <Link className=' btn btn-orange' to='/contact'>
           References available Upon Request
-        </Button>
+        </Link>
       </div>
     </div>
   );

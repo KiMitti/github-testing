@@ -2,7 +2,8 @@ import { FiCode } from 'react-icons/fi';
 import { FaScroll } from 'react-icons/fa';
 import { MdOutlineSubject, MdOutlineSchool } from 'react-icons/md';
 import { BsPeopleFill, BsDownload } from 'react-icons/bs';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 const Resume = () => {
   return (
     <Container id='resume' className='resume pt-5'>
@@ -168,7 +169,9 @@ const Resume = () => {
             <p>Subjects include: React, Node, NPM, Jest, Next.js and others</p>
           </article>
           <div className='text-center m-4'>
-            <Button href='/contact'>Contact Me with Questions!</Button>
+            <Link to='/contact' className='btn btn-primary'>
+              Contact Me with Questions!
+            </Link>
           </div>
         </Col>
       </Row>
