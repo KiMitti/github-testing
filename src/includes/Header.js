@@ -5,6 +5,13 @@ import { BsFillEnvelopeFill, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
+const navItems = [
+  { title: 'Home', link: '/' },
+  { title: 'Portfolio', link: '/portfolio' },
+  { title: 'About', link: '/about' },
+  { title: 'Contact', link: '/contact' },
+];
+
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [show, setShow] = useState(false);
@@ -38,21 +45,16 @@ const Header = () => {
           </span>
 
           <Nav activeKey={key} className='ms-auto me-5'>
-            <Nav.Item>
-              <Nav.Link as={Link} to='/'>
-                Home
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as={Link} to='/about'>
-                About
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link as={Link} to='/contact'>
-                Contact
-              </Nav.Link>
-            </Nav.Item>
+            {navItems.map((item, index) => {
+              const { title, link } = item;
+              return (
+                <Nav.Item key={index}>
+                  <Nav.Link as={Link} to={link}>
+                    {title}
+                  </Nav.Link>
+                </Nav.Item>
+              );
+            })}
           </Nav>
 
           <a href='mailto:email@kileymitti.com'>
@@ -106,39 +108,22 @@ const Header = () => {
                 activeKey={key}
                 className='flex-column justify-content-end flex-grow-1 pe-3'
               >
-                <Nav.Item>
-                  <Nav.Link
-                    as={Link}
-                    to='/'
-                    onClick={() => {
-                      setShow(false);
-                    }}
-                  >
-                    Home
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link
-                    as={Link}
-                    to='/about'
-                    onClick={() => {
-                      setShow(false);
-                    }}
-                  >
-                    About
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link
-                    as={Link}
-                    to='/contact'
-                    onClick={() => {
-                      setShow(false);
-                    }}
-                  >
-                    Contact
-                  </Nav.Link>
-                </Nav.Item>
+                {navItems.map((item, index) => {
+                  const { title, link } = item;
+                  return (
+                    <Nav.Item key={index}>
+                      <Nav.Link
+                        as={Link}
+                        to={link}
+                        onClick={() => {
+                          setShow(false);
+                        }}
+                      >
+                        {title}
+                      </Nav.Link>
+                    </Nav.Item>
+                  );
+                })}
                 <Nav.Item>
                   <a href='mailto:email@kileymitti.com'>
                     <BsFillEnvelopeFill className='header--icon icon m-2' />

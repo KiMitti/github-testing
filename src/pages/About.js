@@ -86,15 +86,6 @@ const About = () => {
               projects.
             </p>
           </article>
-          <article>
-            <h2 className='mt-4'>Other Projects</h2>
-            <p>
-              Here are some other things I've worked on recently! Some of them
-              showcase the code, others, my ability to work with clients or as a
-              team to get things done.
-            </p>
-            <h3>Coming Soon!</h3>
-          </article>
         </Col>
       </Row>
     </Container>

@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import ContactForm from './modules/Contact';
 const Contact = () => {
   return (
     <Container className='page about'>
@@ -6,7 +7,7 @@ const Contact = () => {
         <Col>
           <article className='about'>
             <h1 className='page--title'>Contact Me!</h1>
-            <p>This is going to contain various ways to get in touch.</p>
+            <ContactForm />
           </article>
         </Col>
       </Row>
