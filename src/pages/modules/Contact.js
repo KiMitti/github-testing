@@ -1,5 +1,8 @@
 import { Form, Button } from 'react-bootstrap';
 const ContactForm = () => {
+  // const handleSubmit = () => {};
+
+  // const onChange = () => {};
   return (
     <Form
       className='contact-form mb-5'
@@ -7,12 +10,23 @@ const ContactForm = () => {
       data-netlify='true'
       name='contact'
     >
+      {/* this field necessary for netlify form submit */}
       <input type='hidden' name='form-name' value='contact' />
       <Form.Group className='mb-3' controlId='contactName'>
-        <Form.Control type='text' placeholder='Your Name' name='name' />
+        <Form.Control
+          type='text'
+          placeholder='Your Name'
+          name='name'
+          required
+        />
       </Form.Group>
       <Form.Group className='mb-3' controlId='contactEmail'>
-        <Form.Control type='email' placeholder='Enter email' name='email' />
+        <Form.Control
+          type='email'
+          placeholder='Enter email'
+          name='email'
+          required
+        />
         <Form.Text className='text-muted'>
           Your email, and information will be kept confidential.
         </Form.Text>
