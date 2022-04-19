@@ -42,6 +42,10 @@ const ContactForm = () => {
       <Button variant='primary' type='submit'>
         Submit
       </Button>
+      {/* for stateful form in progress */}
+      <div className='formMessage' style={{ display: 'none' }}>
+        Message Here
+      </div>
     </Form>
   );
 };

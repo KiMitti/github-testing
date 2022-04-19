@@ -1,0 +1,7 @@
+.contact-form {
+  width: 600px;
+  max-width: 80%;
+  background-color: var(--color-xltgrey);
+  padding: 2rem;
+  box-shadow: 1px 1px 7px var(--color-shadow);
+}
