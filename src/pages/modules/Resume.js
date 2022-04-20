@@ -62,8 +62,9 @@ const Resume = () => {
             <li>Excellent interpersonal skills</li>
             <li>Ability to explain technical concepts at all levels</li>
             <li>Mentoring</li>
-            <li>Customer oriented</li>
+            <li>Customer Oriented</li>
             <li>Quick Study</li>
+            <li>Tenacious Problem Solver</li>
           </ul>
         </Col>
       </Row>

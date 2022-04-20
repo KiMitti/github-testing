@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image';
 const About = () => {
   return (
     <Container className='page about'>
@@ -6,6 +7,10 @@ const About = () => {
         <Col>
           <article className='about'>
             <h1 className='page--title'>About Me</h1>
+            <Image
+              src='/images/kiley-kayak.jpg'
+              className='float-md-end kiley-image'
+            />
             <p>
               Hi! I'm Kiley Mitti. I've been in web development in some form or
               another for most of my life. In high school I worked part time as
