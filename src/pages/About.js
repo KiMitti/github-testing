@@ -72,23 +72,11 @@ const About = () => {
             </p>
             <h2 className='mt-4'>About This Site</h2>
             <p>
-              This site started out as a testing bed for various technologies
-              and web practices I've been reviewing. And as of this moment, it
-              still is MAINLY that. But, I wanted a site where I could showcase
-              my resume and some of the projects I've done so I figured: why not
-              kill two birds with one stone? So! Not only is this a place where
-              I talk about myself, it's also a testing bed for various modern
-              coding strategies (you can find a link to the github repository
-              for that in the footer).
-            </p>
-            <p>
-              Currently the site is based in React.js using React Router 6,
-              SCSS, and React Bootstrap (which is based in Bootstrap 5 these
-              days). It's hosted on netlify which autocompiles it from the
-              github master repository which is super cool. It's probably a BIT
-              more complex than it, strictly speaking, needs to be for such a
-              simple site, but I figure it's good to practice for larger
-              projects.
+              This site is based in React.js using React Router 6, SCSS, and
+              React Bootstrap (which is based in Bootstrap 5 these days). It's
+              hosted on netlify which autocompiles it from the github master
+              repository (you can find a link to the github repository for that
+              in the footer).
             </p>
           </article>
         </Col>

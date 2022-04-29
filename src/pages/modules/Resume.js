@@ -162,12 +162,12 @@ const Resume = () => {
           <article className='resume--experience--job'>
             <h3 className='resume--experience--job--heading'>
               Continuing Education via Udemy.com
-              <span className='resume--experience--job--date'>
-                2021 - Present
-              </span>
             </h3>
             <h4 className='resume--experience--job--subheading'>Remote</h4>
-            <p>Subjects include: React, Node, NPM, Jest, Next.js and others</p>
+            <p>
+              Subjects include: React, Node, NPM, Jest, Next.js, TyoeScript and
+              others
+            </p>
           </article>
           <div className='text-center m-4'>
             <Link to='/contact' className='btn btn-primary'>
