@@ -157,7 +157,7 @@ const Resume = () => {
             <h4 className='resume--experience--job--subheading'>
               Central Michigan University, Mount Pleasant, MI
             </h4>
-            <p>Minors in Computer Science, math & psychology</p>
+            <p>Minors in Computer Science, Math & Psychology</p>
           </article>
           <article className='resume--experience--job'>
             <h3 className='resume--experience--job--heading'>
