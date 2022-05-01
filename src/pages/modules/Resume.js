@@ -165,7 +165,7 @@ const Resume = () => {
             </h3>
             <h4 className='resume--experience--job--subheading'>Remote</h4>
             <p>
-              Subjects include: React, Node, NPM, Jest, Next.js, TyoeScript and
+              Subjects include: React, Node, NPM, Jest, Next.js, TypeScript and
               others
             </p>
           </article>
