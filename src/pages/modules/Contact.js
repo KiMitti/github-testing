@@ -5,7 +5,7 @@ const ContactForm = () => {
   // const onChange = () => {};
   return (
     <Form
-      className='contact-form mb-5'
+      className='contact-form mb-5 mt-4'
       method='POST'
       data-netlify='true'
       name='contact'

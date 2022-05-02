@@ -32,6 +32,12 @@ a:active {
   flex-grow: 1;
 }
 
+h1,
+h2 {
+  font-family: var(--font-serif);
+  text-transform: uppercase;
+}
+
 /*button colors*/
 
 .btn {
