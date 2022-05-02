@@ -16,7 +16,17 @@ const Hero = () => {
         <h1 className='large-hero--title'>Kiley Mitti</h1>
         <h2 className='large-hero--subtitle'>Web Developer</h2>
         <p className='large-hero--more-info'>
-          Bringing beautiful designs to life.
+          <span
+            className='serif'
+            style={{ textTransform: 'uppercase', fontSize: '1.8rem' }}
+          >
+            Coding{' '}
+          </span>
+          design to
+          <span className='cursive ms-2' style={{ fontSize: '2.6rem' }}>
+            life
+          </span>
+          .
         </p>
         <p>
           <Button href='#resume' className='btn-orange'>

@@ -33,3 +33,7 @@
   background-color: var(--color-dkgrey);
   color: var(--color-white);
 }
+
+.sticky-top {
+  box-shadow: 2px 2px 4px var(--color-shadow);
+}

@@ -43,6 +43,14 @@ h2 {
   text-transform: uppercase;
 }
 
+.serif {
+  font-family: var(--font-serif);
+}
+
+.cursive {
+  font-family: var(--font-cursive);
+}
+
 /*button colors*/
 .btn {
   text-transform: uppercase;
