@@ -18,11 +18,10 @@ const Portfolio = () => {
       <article className='mb-5'>
         <h2 className='mt-4 mb-4'>Other Projects</h2>
         <p>
-          Here are some personal projects I've worked on recently. As you can
-          see above, most of my client projects in recent years have been
-          focused in a WordPress environment. These are alternative works that
-          I've done with classwork or on my own, in order to brush up on/learn
-          skills I haven't otherwise have the opportunity to use.
+          Here are some personal projects I've worked on recently. These are
+          alternative works that I've created in order to keep up to date on
+          skills/technologies that I haven't otherwise have the opportunity to
+          use.
         </p>
         <Projects list={learning} />
       </article>

@@ -25,6 +25,29 @@ export const clients = [
     image: './images/projects/northshorechicago.jpg',
     subtitle: 'NorthShoreChicago.com',
   },
+  {
+    id: 'cl4',
+    name: 'RestaurantOwner.com',
+    website: 'https://restaurantowner.com',
+    description: `This is MemberGate's flagship site and the owners are always dreaming up new features. I'm their lead frontend developer and I work with their team of designers and their their amazing backend developer Steve to bring it all together!`,
+    image: './images/projects/ro.jpg',
+  },
+  {
+    id: 'cl5',
+    name: 'Dance Studio Owner',
+    website: 'https://dancestudioowner.com',
+    description: `Built on the MemberGate platform, my project manager Joyce and I helped these clients out of a bind. Their developers had abandoned them mid build and they needed someone to jump in (without guidance from their previous devs) to save their project. I took on their codebase and we got the site up and running for them within their timeframe!`,
+    image: './images/projects/dso.jpg',
+  },
+
+  {
+    id: 'cl6',
+    name: 'Alan Jansson',
+    website: 'https://worldactupuncture.com',
+    description: `Built from scratch using MemberGate's new (at the time) theming system. I believe that this was one of the first third party themes created for the platform. I worked closely with their lead developer, Steve, to iron out some of the theming issues and suggest changes that would make both of our lives easier. It was rewarding to see some of my suggestions implemented.`,
+    image: './images/projects/worldacupuncture.jpg',
+    subtitle: 'World Acupuncture',
+  },
   // {
   //   id: '',
   //   name: '',
