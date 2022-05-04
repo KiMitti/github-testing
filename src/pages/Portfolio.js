@@ -21,7 +21,7 @@ const Portfolio = () => {
           Here are some personal projects I've worked on recently. These are
           alternative works that I've created in order to keep up to date on
           skills/technologies that I haven't otherwise have the opportunity to
-          use.
+          use recently.
         </p>
         <Projects list={learning} />
       </article>
