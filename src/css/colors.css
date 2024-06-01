@@ -12,6 +12,7 @@
   --color-xltgrey: #eeeeee;
   --color-white: #fff;
   --color-shadow: rgba(51, 51, 51, 0.304);
+  --text-gradient: linear-gradient(to right, #044679 30%, #A36105 60%);
 
   /*fonts*/
   --font-sans: 'Roboto', sans-serif;
