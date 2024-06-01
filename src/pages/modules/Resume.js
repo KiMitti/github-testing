@@ -25,7 +25,7 @@ const Resume = () => {
             Summary
           </h2>
           <p className='resume--summary--text'>
-            Front-end Web Developer with 16+ years of experience coding
+            Front-end Engineer with 18+ years of experience coding
             responsive web applications and websites. Proficient in creating
             user interfaces, troubleshooting both simple and complex issues,
             translating business needs into technical solutions.
@@ -39,15 +39,18 @@ const Resume = () => {
             Technical Skills
           </h2>
           <ul className='resume--skills--list'>
-            <li>Responsive Design / SEO Optimization</li>
             <li>Comprehensive knowledge of HTML5, CSS3, and Web Components</li>
             <li>Experienced with Javascript, TypeScript, Node.JS, and PHP</li>
-            <li>ReactJS, Bootstrap/React Bootstrap, JQuery</li>
+            <li>Extensive experience expanding and maintaining a design system/web component codebase</li>
+            <li>React, Angular, Stencil, Lit, Vue, JQuery</li>
             <li>RESTful API, GraphQL</li>
-            <li>PostgreSQL, MySQL, Apache, DNS, SSL Certificates</li>
-            <li>WordPress, Shopify, MemberGate, cPanel</li>
-            <li>Git, VS Code, NPM, Selenium</li>
-            <li>Experienced in debugging and testing web applications</li>
+            <li>PostgreSQL, MySQL, Express, MongoDB, Apache, Docker, Kubernetes DNS, SSL Certificates</li>
+            <li>AstroJs, Astro Design System, 11ty, WordPress, Shopify, MemberGate, cPanel</li>
+            <li>Responsive Design, SEO Optimization, Accessibility Standards</li>
+            <li>Git, VS Code, NPM, Selenium, Jest, Playwright, Cypress</li>
+            <li>Github, gitLab, Argo</li>
+            <li>Extensive experience expanding and maintaining a design system/web component codebase</li>
+            <li>Skilled in debugging and testing web applications</li>
           </ul>
         </Col>
         <Col sm className='resume--skills--section pt-3'>
@@ -61,10 +64,11 @@ const Resume = () => {
             <li>Strong communication skills</li>
             <li>Excellent interpersonal skills</li>
             <li>Ability to explain technical concepts at all levels</li>
+            <li>Tenacious Problem Solver</li>
             <li>Mentoring</li>
             <li>Customer Oriented</li>
             <li>Quick Study</li>
-            <li>Tenacious Problem Solver</li>
+            <li>Aggresive Self Starter</li>
           </ul>
         </Col>
       </Row>
@@ -76,9 +80,39 @@ const Resume = () => {
           </h2>
           <article className='resume--experience--job'>
             <h3 className='resume--experience--job--heading'>
+              FRONTEND ENGINEER • ROCKET COMMUNICATIONS, INC
+              <span className='resume--experience--job--date'>
+                2022 - Present
+              </span>
+            </h3>
+            <ul>
+              <li>
+                Work with a team of UX designers and developers to create/maintain web components for the Astro Design System, the predominent design system in use by Space Force
+              </li>
+              <li>
+                Contributed to the creation and enhancement of the AstroUXDS documentation website featuring a custom component playground.
+              </li>
+              <li>
+                Work with industry experts in the Space/DoD industry to create accessible intuitive mission-critical applications and systems.
+              </li>
+              <li>
+                Led prototyping efforts for government contractors, resulting in high client satisfaction due to responsive, high-quality, and efficient work.</li>
+              <li>
+                Developed sample applications using React, Angular, TypeScript, Stencil, and the Astro Design System to showcase our team's ability to make complex technologies user-friendly.
+              </li>
+              <li>
+                Modernize legacy apps by improving the codebase, updating the tech stack, and enhancing the UX with current design principles.
+              </li>
+              <li>
+                Maintained the company's website RocketCom.com, ensuring its functionality, performance, and content updates align with business goals.
+              </li>
+            </ul>
+          </article>
+          <article className='resume--experience--job'>
+            <h3 className='resume--experience--job--heading'>
               FREELANCE WEB DEVELOPMENT
               <span className='resume--experience--job--date'>
-                2011 - PRESENT
+                2011 - 2022
               </span>
             </h3>
             <h4 className='resume--experience--job--subheading'>
@@ -165,7 +199,7 @@ const Resume = () => {
             </h3>
             <h4 className='resume--experience--job--subheading'>Remote</h4>
             <p>
-              Subjects include: React, Node, NPM, Jest, Next.js, TypeScript and
+              Subjects include: React, Node, NPM, Jest, Next.js, TypeScript, Docker, Kubernetes and
               others
             </p>
           </article>
